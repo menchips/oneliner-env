@@ -48,7 +48,7 @@
     - "{{ ffmpeg_bin_dir }}"
 
 ### TOOL INSTALL ###
-- name: Download and Extract NASM gzip archive From videolan
+- name: Download and Extract NASM gzip archive From videolan2
   unarchive:
     src: "https://download.videolan.org/contrib/nasm/nasm-{{ nasm_version }}.tar.gz"
     dest: "{{ ffmpeg_src_dir }}"
