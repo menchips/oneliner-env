@@ -14,7 +14,7 @@
 # License:      MIT License
 
 # Define macro parameter
-readonly GITHUB_USER="czbone"
+readonly GITHUB_USER="menchips"
 readonly GITHUB_REPO="oneliner-env"
 readonly WORK_DIR=/root/${GITHUB_REPO}_work
 readonly PLAYBOOK_LEMP="lemp_media"
